@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ian Hollas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --text: #1a1a18;
+      --muted: #5a5a54;
+      --link: #2a4a7f;
+      --border: #ddddd5;
+      --bg: #faf9f6;
+      --serif: 'EB Garamond', Georgia, serif;
+      --mono: 'JetBrains Mono', monospace;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #e8e8e2;
+        --muted: #999990;
+        --link: #7aa5d4;
+        --border: #2e2e2a;
+        --bg: #141412;
+      }
+    }
+
+    html { font-size: 18px; }
+
+    body {
+      font-family: var(--serif);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 4rem 1.5rem 6rem;
+    }
+
+    main {
+      max-width: 620px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.2rem;
+    }
+
+    .subtitle {
+      font-size: 0.9rem;
+      color: var(--muted);
+      font-family: var(--mono);
+      margin-bottom: 2.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    section {
+      margin-top: 3rem;
+    }
+
+    h2 {
+      font-size: 0.8rem;
+      font-family: var(--mono);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 1.2rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .pub {
+      margin-bottom: 1.4rem;
+    }
+
+    .pub-title {
+      font-style: italic;
+    }
+
+    .pub-meta {
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-top: 0.1rem;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .links {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      font-size: 0.88rem;
+      font-family: var(--mono);
+    }
+
+    .links a {
+      color: var(--muted);
+    }
+
+    .links a:hover {
+      color: var(--link);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Ian Hollas</h1>
+    <p class="subtitle">Mathematics · UT Austin</p>
+
+    <p>
+      I am a fourth-year undergraduate in the Department of Mathematics at the University of Texas at Austin. 
+    </p>
+    <p>
+    I am broadly interested in mathematical plasma physics, including 
+    </p>
+
+    <section>
+      <h2>Publications</h2>
+
+      <div class="pub">
+        <div class="pub-title">
+          <!-- Replace with your actual title -->
+          <a href="https://arxiv.org/abs/2508.09484">
+            Verification of Nonperturbative Guiding Center Theory in Symmetric Fields
+          </a>
+        </div>
+        <div class="pub-meta">
+          Ian Hollas, Rishita Agarwal, Joshua W. Burby, Alain Brizard &mdash; <em>arXiv</em>, 2025
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <div class="links">
+        <a href="mailto:your@email.utexas.edu">email</a>
+        <a href="https://arxiv.org/a/YOUR_ID.html">arXiv</a>
+        <a href="https://github.com/ianhollas">github</a>
+        <a href="/cv.pdf">cv</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
